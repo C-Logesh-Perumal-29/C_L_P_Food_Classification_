@@ -1,2 +1,2 @@
-# C_L_P_Food_Classification_
-Identifying food items using an image in various applications.  An approach has been presented to classify images  of food using convolutional neural networks are the most popular and extensively used in image classification techniques.
+# Food Classification
+In numerous applications, the process of recognizing food items through images has become essential. A novel methodology has been introduced to categorize food images by leveraging convolutional neural networks (CNNs), which stand out as the most prevalent and widely employed techniques for image classification.
