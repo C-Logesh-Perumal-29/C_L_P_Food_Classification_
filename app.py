@@ -74,9 +74,11 @@ with col11:
 
 with col22:
 
-    st.title("Food Classification")
+    #st.title("Food Classification")
+    title_html = f'<p style="color:#FF5733; text-align:center;font-family:Eras Bold ITC;font-size:96px;">Food Classification</p>'
+    st.markdown(title_html, unsafe_allow_html=True)
 
-st.markdown('<marquee style="background-color:#FF00FF;font-family:ROG Fonts;border-radius:15px"> ********** Food Classification Using Convolutional Neural Networks ********** <marquee>',unsafe_allow_html=True)
+st.markdown('<marquee style="background-color:#FF00FF;font-family:ROG Fonts;border-radius:15px; color:white;"> ********** Food Classification Using Convolutional Neural Networks ********** <marquee>',unsafe_allow_html=True)
 
 # Title :
 
@@ -111,7 +113,6 @@ x1,y1 = st.columns([5,2])
 
 with x1:
     st.write("Identifying food items using an image that is the fascinating thing with various applications. An approach has been presented to classify images of food using convolutional neural networks with the help of machine learning and deep learning. The Convolution neural network is the most popular and extensively used in image classification techniques, Image classification is performed on food dataset using various transfer learning techniques. Therefore, pre-trained models are used in this project which to add more weights of image and also it has given better results. The food dataset of sixteen classes with many images in each class is used for training and also validating. Using these pre-trained models, the given food will be recognized and will be predicted based on the color in the image. Convolutional neural networks have the capability of estimating the score function directly from image pixels. An accuracy of my model is 88%.In these food classification you have to upload an image or using live camera to  my model will predict the accurate results of your uploaded images.")
-
     st.markdown(
         """  
         1) Burger 
@@ -198,9 +199,9 @@ if q == "Food Classification":
                 #st.write(result)
                 st.pyplot(figure)
                 st.success(result) 
-                                          # D:\Web\Project\Model\Food_Classification_CLP.h5
-        def predict_class(image):        # r'D:\Web\Project\Model\model.pkl','rb'
-            classifier_model = tf.keras.models.load_model("D:\Web\Project\Model\Food_Classification_CLP.h5")
+                                         
+        def predict_class(image):        
+            classifier_model = tf.keras.models.load_model("D:\\Project_Web\\C_L_P_Food_Classification_\\Model\\Food_Classification_CLP.h5")
             #classifier_model = pickle.load(open("D:\\Project_Web\\Model\\C_LP-FC.pkl", 'rb'))
             shape = ((228,228,3))
             tf.keras.Sequential([hub.KerasLayer(classifier_model,input_shape=shape)])
@@ -241,11 +242,11 @@ if q == "Food Classification":
                 plt.imshow(image)
                 plt.axis("off")
                 result = predict_class(image)
-                st.write(result)
+                st.success(result)
                 st.pyplot(figure)
                 
         def predict_class(image):
-            classifier_model = tf.keras.models.load_model("D:\Web\Project\Model\Food_Classification_CLP.h5")
+            classifier_model = tf.keras.models.load_model("D:\\Project_Web\\C_L_P_Food_Classification_\\Model\\Food_Classification_CLP.h5")
             #classifier_model = pickle.load(open("D:\\Project_Web\\Model\\C_LP-FC.pkl", 'rb'))
             shape = ((228,228,3))
             tf.keras.Sequential([hub.KerasLayer(classifier_model,input_shape=shape)])
