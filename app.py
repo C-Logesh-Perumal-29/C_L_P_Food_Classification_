@@ -1395,9 +1395,6 @@ loaded_model = load_model("F_C.h5")'''
     
     c19 = """# And Make prediction to the saved model
     predict_image("D:\\test_dataset\\Parotta\\001.jpg",loaded_model)"""
-    
     st.code(c19,language='python')
-
     st.balloons()
-        
     st.write("👍"*56)   
