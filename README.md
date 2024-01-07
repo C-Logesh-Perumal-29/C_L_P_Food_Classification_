@@ -9,3 +9,6 @@ In numerous applications, the process of recognizing food items through images h
 
 <img alt = "Classes" src = "https://github.com/C-Logesh-Perumal-29/C_L_P_Food_Classification_/assets/125385633/ee806e9f-0b5d-440d-bb1f-bb4e4aeae758 ">
 
+## Credits:
+
+  > 👉 **©️ Credits** goes to the **owner** of `all images`. _Thank You_ for all the _**Image Creaters**_ to `done this amazing project` 🤝...
