@@ -297,7 +297,7 @@ elif q == "Sample training Images":
     with o: 
         st.image("./Dataset/10.jpg")
     with p: 
-        st.image("./Dataset/11.jpg")
+        st.image("./Dataset/11.JPG")
     with u1:
          st.image("./Dataset/20.jpg")
         
