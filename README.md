@@ -17,5 +17,8 @@
 ## Functionality Spotlight :
   ![Food Classification (Old)](https://github.com/C-Logesh-Perumal-29/C_L_P_Food_Classification_/assets/125385633/9a2f254f-f30d-40f2-a02f-024a5f1eb6ab)
 
+## Live Project Link
+  https://c-lp-food-classification-1.streamlit.app/
+
 ## Credits:
   > 👉 **©️ Credits** goes to the **owner** of `all images`. _Thank You_ for all the _**Image Creaters**_ to `done this amazing project` 🤝...
